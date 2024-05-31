@@ -1,7 +1,7 @@
 # Interactive Credit Card
 
 
-The contact form page is desktop responsive.
+The contact form page is desktop and mobile responsive.
 <br><br>
 Developed by Ansubha Dhar
 <br>

@@ -193,3 +193,67 @@ svg{
     font-weight:bold;
     padding-bottom:50px;
 }
+@media(max-width:375px)
+{
+    body{
+        height:auto;
+        width:100vw;
+        display:flex;
+        flex-direction:column;
+    }
+    #background1{
+        width:100%;
+        height: 70vw;
+    }
+    #background2{
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content:center;
+    
+    }
+    .card{
+        height:154px;
+        width:280px;
+    }
+    #front{
+        top:24%;
+        left:4%;
+        z-index:2;
+    }
+    #back{
+        top:9%;
+        left:21%;
+        z-index:1;
+    }
+    #cvccard{
+        top:41%;
+        right:13%
+    }
+    #c1{
+        height:30px;
+        width: 30px;
+    }
+    #c2{
+        height:10px;
+        width:10px;
+    }
+    #cardno{
+        top:34px;
+        font-size:15px;
+        letter-spacing:6px;
+    }
+    span{
+        font-size:9px;
+    }
+    .card1{
+        font-size:9px;
+    }
+    .form{
+        width:100vw;
+        height:auto;
+        box-sizing:border-box;
+        padding:0px 10px 0px 10px;
+        margin: 80px 0px 30px 0px;
+    }
+}
