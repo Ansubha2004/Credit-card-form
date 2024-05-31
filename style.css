@@ -258,5 +258,8 @@ svg{
     }
     .redline{
         font-size:10px;
+        color:red;
+        margin-top:3px;
+        margin-bottom: 15px;
     }
 }
