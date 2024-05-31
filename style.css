@@ -1,0 +1,195 @@
+*
+{
+    font-size:18px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+body{
+    height:100vh;
+    width: 100vw;
+    display:flex;
+}
+#background1{
+    height:100vh;
+    width:540px;
+    background-color:#6f1d1b;
+    box-shadow: inset black 0px 0px 150px 40px;
+}
+#background2{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.card{
+    height:197px;
+    width:360px;
+    background-size:cover;
+    position:absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo{
+    height:auto;
+    width:auto;
+    display:flex;
+    align-items:center;
+}
+.circle
+{
+    border-radius:50%;
+}
+#c1{
+    height:35px;
+    width:35px;
+    background-color:white;
+}
+#c2
+{
+    height:15px;
+    width:15px;
+    border:1px solid white;
+    margin-left:10px;
+}
+#front{
+    background-image:url("bg-card-front.png");
+    top:16%;
+    left: 9%;
+    box-sizing:border-box;
+    padding: 20px;
+    color:white;
+}
+
+#cardno
+{
+    position:relative;
+    top:60px;
+    font-size:20px;
+    letter-spacing: 7px;
+}
+span{
+    position:absolute;
+    bottom:20px;
+    font-size:11px;
+    letter-spacing:3px;
+}
+#namecard{
+    left:20px;
+}
+#datecard{
+    right:20px;
+}
+#back
+{
+    background-image:url("bg-card-back.png");
+    bottom:16%;
+    left:15%;
+}
+.form{
+    width:400px;
+    height:auto;
+    box-sizing:border-box;
+    padding: 30px 0px 30px 60px;
+}
+.input{
+    height:40px;
+    width:100%;
+    border-radius:7px;
+    border: 2px solid hsl(270, 3%, 87%);
+    box-sizing: border-box;
+    padding-left:10px;
+    cursor: pointer;
+
+}
+.input:hover{
+    border: 2px solid hsl(279, 6%, 55%);
+}
+.input:focus-visible{
+    outline:none;
+    border: 2px solid hsl(279, 6%, 40%);
+}
+.redborder{
+    border: 2px solid red;
+}
+input::placeholder{
+    color:hsl(270, 3%, 87%);
+    font-size: 15px;
+    font-weight:bold;
+}
+.card1{
+    font-size: 11px;
+    display:inline-block;
+}
+.space-grotesk-fonting {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-size:13px;
+  font-style: normal;
+  color:hsl(278, 68%, 11%);
+  margin-bottom:10px;
+  letter-spacing:2px;
+}
+.redline{
+    font-size:13px;
+    color:red;
+    margin-top:3px;
+    margin-bottom: 15px;
+}
+#month{
+    width:48.5%;
+    display:inline-block;
+}
+#year{
+    width:48.5%;
+    display:inline-block;
+}
+
+#date{
+    width:50%;
+    display:inline-block;
+}
+#cvc
+{
+    width:45%;
+    display:inline-block;
+    margin-left:12px;
+}
+button{
+    height:40px;
+    width:100%;
+    background-color:hsl(278, 68%, 11%);
+    color:white;
+    font-size:15px;
+    border-radius:7px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+button:active{
+    background-color:hsl(279, 6%, 55%);    
+}
+#cvccard
+{
+    height:auto;
+    width:auto;
+    color:white;
+    position:absolute;
+    top:86px;
+    right:49px;
+
+}
+#thanku{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+svg{
+    margin-bottom:30px;
+}
+#msg{
+    color:hsl(279, 6%, 40%);
+    font-size:16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    padding-bottom:50px;
+}

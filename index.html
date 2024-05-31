@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="background1" ></div>
+  <div id="background2" >
+    <div class="card"  id="front">
+      <div id="logo">
+        <div class="circle" id="c1"></div>
+        <div class="circle" id="c2"></div>
+      </div>
+      <div id="cardno">0000  0000  0000</div>
+      <span id="namecard">XXX</span>
+      <span id="datecard"><p class="card1">MM</p>/<p class="card1">YY</p></span>
+    </div>
+    <div class="card" id="back">
+        <div id="cvccard">000</div>
+    </div>
+    <div class="form" id="form" style="display:block">
+      <div class="formfillup" id="name">
+        <p class="space-grotesk-fonting">CARDHOLDER NAME</p>
+        <input class="input" type="text" placeholder="E.g. Ansubha Dhar">
+        <div class="redline" style="visibility:hidden">This field is invalid</div>
+      </div>
+      <div class="formfillup" id="cardnumber">
+        <p class="space-grotesk-fonting">CARD NUMBER</p>
+        <input class="input" type="number" placeholder="E.g. 1236 7894 6896">
+        <div class="redline" style="visibility:hidden">Invalid format. Enter correctly</div>
+      </div>
+      <div class="formfillup" id="date">
+        <p class="space-grotesk-fonting">EXP. DATE (MM/YY)</p>
+        <select class="input" id="month">
+          <option value="01">January</option>
+          <option value="02">February</option>
+          <option value="03">March</option>
+          <option value="04">April</option>
+          <option value="05">May</option>
+          <option value="06">June</option>
+          <option value="07">July</option>
+          <option value="08">August</option>
+          <option value="09">September</option>
+          <option value="010">October</option>
+          <option value="011">November</option>
+          <option value="012">December</option>
+        </select>
+        <input class="input" id="year" type="number" placeholder="E.g. 25">
+        <div class="redline" style="visibility:hidden">Input valid month and year</div>
+      </div>
+      <div class="formfillup" id="cvc">
+        <p class="space-grotesk-fonting">CVC</p>
+        <input class="input" type="number" placeholder="E.g. 123">
+        <div class="redline" style="visibility:hidden">Can't be blank</div>
+      </div>
+      <button>Confirm</button>
+    </div>
+    <div class="form" id="thanku" style="display:none">
+      <svg width="80" height="80" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="40" fill="url(#a)"/><path d="M28 39.92 36.08 48l16-16" stroke="#fff" stroke-width="3"/><defs><linearGradient id="a" x1="-23.014" y1="11.507" x2="0" y2="91.507" gradientUnits="userSpaceOnUse"><stop stop-color="#6348FE"/><stop offset="1" stop-color="#610595"/></linearGradient></defs></svg>
+      <p class="space-grotesk-fonting" style="font-size:25px">THANK YOU!</p>
+      <p id="msg">We've added you card details</p>
+      <button id="popup">Continue</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
